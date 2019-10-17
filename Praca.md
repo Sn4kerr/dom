@@ -3,13 +3,15 @@
 
 **~** - przenosi do katalogu domowego ( przed tym stawiamy cd)
 
-## Pliki: tworzenie, usuwanie, przenoszenie, zmiana nazwy.
+## Pliki: tworzenie, usuwanie, przenoszenie, kopiowanie, zmiana nazwy.
 
 **Tworzenie**
 
 Aby utworzyć nowy katalog, należy posłużyć się poleceniem mkdir.
 
-*Na przykład*: mkdir nowyKatalog
+Na przykład
+
+*mkdir nowyKatalog*
 
 **Usuwanie**
 
@@ -17,7 +19,15 @@ Aby utworzyć nowy katalog, należy posłużyć się poleceniem mkdir.
  
  Przykład:
  
-rm -r istniejacyKatalog
+*rm -r istniejacyKatalog*
 
-rmdir istniejacyKatalog
+*rmdir istniejacyKatalog*
+
+**Kopiowanie** 
+
+Kopiowanie katalogów, polega na rekursywne przekopiowaniu plików. Zatem wystarczy wydać polecenie:
+
+*cp -r katalogŹródłowy katalogDocelowy*
+
+
 
