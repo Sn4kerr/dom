@@ -29,5 +29,11 @@ Kopiowanie katalogów, polega na rekursywne przekopiowaniu plików. Zatem wystar
 
 *cp -r katalogŹródłowy katalogDocelowy*
 
+**Przeonoszenie**
+
+Za przeniesienie katalogu do innej ścieżki, odpowiada to samo polecenie, którym przenosimy pliki - mv. Przykładowa komenda zlecająca przeniesienie katalogu może więc wyglądać następująco:
+
+*mv obecnaLokacjaKatalogu nowaLokacjaKatalogu*
+
 
 
