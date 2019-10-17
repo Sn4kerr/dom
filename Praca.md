@@ -11,3 +11,13 @@ Aby utworzyć nowy katalog, należy posłużyć się poleceniem mkdir.
 
 *Na przykład*: mkdir nowyKatalog
 
+**Usuwanie**
+
+ Gdy interesuje nas usunięcie istniejącego już katalogu, musimy wydać polecenie **rmdir**. Katalog taki koniecznie musi być pusty. Dlatego jeśli znajdują się w nim jakieś pliki, należy je usunąć przy pomocy polecenia rm -r (flaga r oznacza rekursywne usuwanie plików).
+ 
+ Przykład:
+ 
+rm -r istniejacyKatalog
+
+rmdir istniejacyKatalog
+
