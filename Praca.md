@@ -33,9 +33,21 @@ Na Przykład
 
 **Kopiowanie** 
 
-Kopiowanie katalogów, polega na rekursywne przekopiowaniu plików. Zatem wystarczy wydać polecenie:
+Do kopiowania plików słóży polecenie cp (Copy). Możemy utworzyć kopię pliku w tym samym folderze pod nową nazwą
 
-*cp -r katalogŹródłowy katalogDocelowy*
+*cp sample.txt new_sample.txt*
+
+Możemy też utworzyć kopię pliku pod tą samą nazwą, ale w podkatalogu:
+
+*cp sample.txt Pictures* - Polecenie skopiuje plik sample do folderu Pictures pod nazwą sample.txt
+
+Możemy też uworzyć kopię pliku, pod nową nazwą, ale w podkatalogu:
+
+*cp sample.txt Pictures/new_sample.txt* - Polecenie skopiuje plik sample do folderu Pictures pod nazwą new_sample.txt
+
+ cp z opcją -rpozwala również kopiować całe foldery:
+ 
+ *cp -r Pictures New_Pictures*
 
 **Przeonoszenie**
 
