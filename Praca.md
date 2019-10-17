@@ -1,2 +1,2 @@
- ## pwd
-  Za pomocą polecenia pwd możemy wyświetlić informację, gdzie jesteśmy. To znaczy ścieżkę do katalogu, w którym aktualnie się znajdujemy.
+**pwd**
+Za pomocą polecenia pwd możemy wyświetlić informację, gdzie jesteśmy. To znaczy ścieżkę do katalogu, w którym aktualnie się znajdujemy.
