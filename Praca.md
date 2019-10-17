@@ -51,9 +51,13 @@ Możemy też uworzyć kopię pliku, pod nową nazwą, ale w podkatalogu:
 
 **Przeonoszenie**
 
-Za przeniesienie katalogu do innej ścieżki, odpowiada to samo polecenie, którym przenosimy pliki - mv. Przykładowa komenda zlecająca przeniesienie katalogu może więc wyglądać następująco:
+Polecenie mv (Move) służy to przeniesienia pliku do innego folderu.
 
-*mv obecnaLokacjaKatalogu nowaLokacjaKatalogu*
+*mv sample.txt Documents*
+
+Można za jego pomocą również zmienić nazwę pliku:
+
+*mv sample.txt new_file.txt *
 
 **Zmiana nazwy katalogu**
 
