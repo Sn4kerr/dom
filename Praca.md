@@ -3,3 +3,11 @@
 
 **~** - przenosi do katalogu domowego ( przed tym stawiamy cd)
 
+## Pliki: tworzenie, usuwanie, przenoszenie, zmiana nazwy.
+
+**Tworzenie**
+
+Aby utworzyć nowy katalog, należy posłużyć się poleceniem mkdir.
+
+*Na przykład*: mkdir nowyKatalog
+
