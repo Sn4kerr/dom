@@ -5,13 +5,21 @@
 
 ## Pliki: tworzenie, usuwanie, przenoszenie, kopiowanie, zmiana nazwy.
 
-**Tworzenie**
+**Tworzenie Katalogu**
 
 Aby utworzyć nowy katalog, należy posłużyć się poleceniem mkdir.
 
 Na przykład
 
 *mkdir nowyKatalog*
+
+**Tworzenie pliku**
+
+Plik tworzymy za pomocą polecenia touch
+
+Na Przykład
+
+*touch new_file.txt*
 
 **Usuwanie**
 
