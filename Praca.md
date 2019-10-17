@@ -35,5 +35,11 @@ Za przeniesienie katalogu do innej ścieżki, odpowiada to samo polecenie, któr
 
 *mv obecnaLokacjaKatalogu nowaLokacjaKatalogu*
 
+**Zmiana nazwy katalogu**
+
+W przypadku zmiany nazwy katalogu, również występuje pełna analogia do zmiany nazwy zwykłego pliku, a to dlatego że za tę operację również odpowiada polecenie mv. Zmiana nazwy katalogu/pliku jest tożsama z przeniesieniem go w obrębie tego samego katalogu nadrzędnego, pod inną nazwą. Polecenie takie może wyglądać podobnie do:
+
+*mv dotychczasowaNazwaKatalogu nowaNazwaKatalogu*
+
 
 
