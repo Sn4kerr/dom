@@ -57,7 +57,7 @@ Polecenie mv (Move) służy to przeniesienia pliku do innego folderu.
 
 Można za jego pomocą również zmienić nazwę pliku:
 
-*mv sample.txt new_file.txt *
+*mv sample.txt new_file.txt*
 
 **Zmiana nazwy katalogu**
 
