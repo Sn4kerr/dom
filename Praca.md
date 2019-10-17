@@ -1,4 +1,5 @@
 ## Katalog domowy pwd, ~
+
 **pwd** - za pomocą polecenia pwd możemy wyświetlić informację, gdzie jesteśmy. To znaczy ścieżkę do katalogu, w którym aktualnie się znajdujemy.
 
 **~** - przenosi do katalogu domowego ( przed tym stawiamy cd)
@@ -64,6 +65,34 @@ Można za jego pomocą również zmienić nazwę pliku:
 W przypadku zmiany nazwy katalogu, również występuje pełna analogia do zmiany nazwy zwykłego pliku, a to dlatego że za tę operację również odpowiada polecenie mv. Zmiana nazwy katalogu/pliku jest tożsama z przeniesieniem go w obrębie tego samego katalogu nadrzędnego, pod inną nazwą. Polecenie takie może wyglądać podobnie do:
 
 *mv dotychczasowaNazwaKatalogu nowaNazwaKatalogu*
+
+## Polecenia: ls, tree, cd 
+
+**ls - wyświetlanie zawartości katalogu**
+
+Wyświetla on informacje dotyczące danego katalogu, a wpisany bez parametrów wyświetla pliki znajdujące się w katalogu, w którym obecnie znajduje się terminal.
+
+| option | description |
+| ------------- | ------------- |
+| ls -a	| ist all files including hidden file starting with '.'|
+| ls --color | colored list [=always/never/auto]|
+| ls -d | list directories - with ' /' |
+| ls -F | add one char of /=>@| to enteries |
+| ls -i	| list file's inode index number|
+| ls -l | list with long format - show permissions |
+| ls -la |	list long format including hidden files |
+| ls -lh |	list long format with readable file size |
+| ls -ls |	list with long format with file size |
+| ls -r |	list in reverse order |
+| ls -R |	list recursively directory tree |
+| ls -s |	list file size |
+| ls -S |	sort by file size |
+| ls -t |	sort by time & date |
+| ls -X |	sort by extension name |
+
+
+
+
 
 
 
