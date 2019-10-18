@@ -72,7 +72,7 @@ W przypadku zmiany nazwy katalogu, również występuje pełna analogia do zmian
 
 Wyświetla on informacje dotyczące danego katalogu, a wpisany bez parametrów wyświetla pliki znajdujące się w katalogu, w którym obecnie znajduje się terminal.
 
-| option | description |
+| opcja | znaczenie |
 | ------------- | ------------- |
 | ls -a	| ist all files including hidden file starting with '.'|
 | ls --color | colored list [=always/never/auto]|
@@ -89,6 +89,59 @@ Wyświetla on informacje dotyczące danego katalogu, a wpisany bez parametrów w
 | ls -S |	sort by file size |
 | ls -t |	sort by time & date |
 | ls -X |	sort by extension name |
+
+**cd - to polecenie powłoki, służące do przemieszczenia się pomiędzy katalogami w systemie operacyjnym. W przypadku użycia bez parametrów, następuje powrót do katalogu domowego (zazwyczaj /home/nazwa_użytkownika lub /root).**
+
+$ cd /home/user/Muzyka – przeniesie nas z katalogu, w którym aktualnie jesteśmy do /home/user/Muzyka
+
+$ cd nazwa_katalogu – przeniesienie do katalogu "nazwa_katalogu" podrzędnego w stosunku do aktualnego
+
+$ cd – podanie bez argumentów przeniesie nas do naszego katalogu domowego
+
+$ cd ../ – polecenie to przeniesie nas do katalogu nadrzędnego
+
+$ cd - – przeniesienie do poprzedniego katalogu bieżącego
+
+**tree – program konsoli Uniksa, wyświetlający strukturę katalogów w formie drzewa. Uruchomiony bez argumentów wyświetla zawartość obecnego katalogu, natomiast po podaniu nazwy katalogu wyświetla jego zawartość.**
+
+| Opcja          |	Znaczenie |
+| ------------- | ------------- |
+| --help |	Wyświetla rozbudowany komunikat pomocy. |
+| --version |	Wyświetla wersję tree. |
+| -a |	Wyświetlane są wszystkie pliki. Bez podania tej opcji tree nie wyświetla ukrytych plików (zaczynających się od kropki). |
+| -d |	Wyświetla tylko katalogi. |
+| -f |	Wyświetlanie pełnej ścieżki dostępu przy plikach. |
+| -i |	Nie wyświetla graficznej struktury drzewa (linii wcięcia), co jest przydatne wraz z opcją -f |
+| -l |	Podążaj za dowiązaniami symbolicznymi jeżeli prowadzą do katalogów. Dowiązania, które doprowadzają do rekursji są pomijane. |
+| -x |	Zmusza tree do poruszania się tylko na obecnym systemie plików. |
+| -I | wzorzec	Nie wyświetla plików, które nie pasują do wzorca. |
+| --noreport |	Pomija wyświetlania informacji o liczbie znalezionych plików i katalogów na końcu wyniku. |
+| -p |	Wyświetla uprawnienia do edycji pliku (tak jak ls -l) |
+| -s |	Wyświetla rozmiar pliku obok jego nazwy. |
+| -u |	Wyświetla nazwę lub numer UID właściciela pliku. |
+| -g |	Wyświetla nazwę lub numer GID grupy właściciela pliku. |
+| -D |	Wyświetla datę ostatniej modyfikacji przy nazwie pliku. |
+| --inodes |	Wyświetla numer i-węzła do którego należy dany plik.każdego pliku? |
+| --device |	Wyświetla numer urządzenia, do którego należy plik lub katalog. |
+| -F |	Dodaje / do nazw katalogów, = – dla plików socket, * do nazw plików wykonywalnych oraz | dla potoków FIFO, tak jak w ls -F. |
+| -q |	Wyświetla znaki niedrukowalne jako pytajniki. |
+| -N |	Nie zmienia sposobu wyświetlania znaków niedrukowalnych. |
+| -r |	Sortuje wynik w odwrotnej kolejności. |
+| -t |	Sortuje wynik w kolejności ostatniej edycji, zamiast alfabetycznie. |
+| --dirsfirst |	Wyświetla katalogi przed plikami. |
+| -n |	Wyłącza koloryzację wyniku. |
+| -C | 	Włącza koloryzację wyniku. Używa domyślnych wbudowanych kolorów jeżeli zmienna środowiskowa LS_COLORS nie jest ustawiona. |
+| -A |	Włącza alternatywny (niestandardowy) sposób druku graficznej reprezentacji wyniku, korzystając z grafik liniowych ANSI. |
+| -S |	Włącza grafiki liniowe ASCII. Jest to równoważne z opcją --charset=IBM437. |
+| -L | głębia	Ustawia maksymalną głębię (liczbę poziomów katalogów, do których wejdzie tree) |
+| -R |	Po wejściu w każdy nowy poziom katalogów, tree wywołuje nową instancję dodając opcję -o 00Tree.html. |
+| -H | baza	Wyświetla wynik w formacie HTML, włączając w to odwołania HTTP. Jest to przydatne dla wyświetlania zawartości folderów w FTP. Baza oznacza bazową część adresu FTP. (np. ftp://jakis.serwer.ftp.com/) Aby dołączyć kolorowanie za pomocą stylów CSS należy normalnie dodać opcję -C. |
+| -T | tytuł	Ustawia tytuł, a także wpisuje go w znacznikach h1. |
+| --charset | kodowanie	Ustawia kodowanie dla wyniku w formacie HTML. |
+| --nolinks |	Nie tworzy hiperłączy w wyniku. |
+| -o | plik	Zapisuje wynik do pliku. |
+
+
 
 
 
