@@ -22,6 +22,13 @@ chmod 640 hello_world.c
 ```sh
 
 
+6. Zarchiwizuj cały katalog temp. (zip i tar)
+
+7. Usuń katalog temp.
+
+8. Odtwórz z archiwum katalog temp. (unzip i tar)
+
+9. Posprzątaj na swoim koncie.
 
 
 
