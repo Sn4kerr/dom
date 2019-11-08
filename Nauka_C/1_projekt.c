@@ -1,5 +1,4 @@
 #include <stdio.h> 
-#include <stdlib.h>
 
 // funckje włączenie, wyłączenia konsoli
 
