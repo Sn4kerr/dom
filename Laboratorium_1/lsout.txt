@@ -1,0 +1,8 @@
+total 0
+-rw-rw-rw- 1 snaker snaker   0 Nov  7 15:08 lsout.txt
+drwxrwxrwx 1 snaker snaker 512 Nov  7 14:42 temp
+total 0
+drwxrwxrwx 1 snaker snaker 512 Nov  7 15:08 .
+drwxr-xr-x 1 snaker snaker 512 Nov  7 14:41 ..
+-rw-rw-rw- 1 snaker snaker 111 Nov  7 15:08 lsout.txt
+drwxrwxrwx 1 snaker snaker 512 Nov  7 14:42 temp
