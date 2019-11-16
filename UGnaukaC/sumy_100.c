@@ -16,6 +16,4 @@ int main()
     }
     printf("\n");
 
-    printf("%.0f\n", S_4); // zrobić tabelkę na 10 wierszy sumy 1 ^1 + 2^1
-    // 1^2+2^2 ....
-}
+    printf("%.0f\n", S_4);
