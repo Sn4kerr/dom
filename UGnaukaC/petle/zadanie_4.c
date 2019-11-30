@@ -9,5 +9,5 @@ int main()
     int a = 1;
     int n = 0;
     printf("Podaj liczbę naturalną n:\n");
-    scnaf("%d\n", &n);
+    scanf("%d\n", &n);
 }
