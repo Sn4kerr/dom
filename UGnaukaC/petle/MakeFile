@@ -1,4 +1,4 @@
 CFLAGS =-cc -Wall -std=c11
 LDLIBS =-lm
-all: zadanie_0 zadanie_1 zadanie_2
-clean:	rm -f zadanie_0 zadanie_1 zdanie_2
+all: zadanie_0 zadanie_1 zadanie_2 zadanie_3 zadanie_4	
+clean: rm -f zadanie_0 zadanie_1 zdanie_2 zadanie_3 zadanie_4
