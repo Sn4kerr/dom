@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-	int n,f,cnt = 0;
+	int n, f, cnt = 0;
 
 	printf("Wpisz liczbę: \n");
 	scanf("%d", &n);

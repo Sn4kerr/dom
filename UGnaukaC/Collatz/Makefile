@@ -1,7 +1,7 @@
 CFLAGS=-ggdb -Wall -std=c11
 LDLIBS=-lm
 
-all: zadanie_1 zadanie_2 zadanie_3
+all: zadanie_1 
 
 clean :
-	rm -f zadanie_1 zadanie_2 zadanie_3
+	rm -f zadanie_1
