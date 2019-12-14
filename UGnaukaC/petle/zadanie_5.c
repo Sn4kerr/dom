@@ -1,3 +1,7 @@
+/*  5. Napisz program, który wczyta ze stdin 6 liczb całkowitych
+do tablicy, a następnie wypisze zawartość tej tablicy od początku i od końca. */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 

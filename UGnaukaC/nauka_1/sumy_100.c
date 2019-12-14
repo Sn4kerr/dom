@@ -16,4 +16,4 @@ int main()
     }
     printf("\n");
 
-    printf("%.0f\n", S_4);
+    printf("%f\n", S_4);

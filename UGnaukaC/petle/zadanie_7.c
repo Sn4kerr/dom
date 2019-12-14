@@ -1,3 +1,7 @@
+/* 7. Napisz program, który ze stdin wczyta 6 liczb 
+rzeczywistych do tablicy, a następnie wypisze liczbę liczb
+ dodatnich w niej zawartych.  */
+
 #include <stdio.h>
 #include <stdlib.h>
 

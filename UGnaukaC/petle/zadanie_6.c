@@ -1,3 +1,6 @@
+/*6. Napisz program, który wczyta ze stdin 6 liczb rzeczywistych do tablicy, 
+a następnie wyszuka i wypisze największą i najmniejszą liczbę umieszczoną w tej tablicy. */
+
 #include <stdio.h>
 #include <stdlib.h>
 
