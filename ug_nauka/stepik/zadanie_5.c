@@ -1,29 +1,36 @@
+/*
+Wzorując się na przykładzie napisz program, który pobierze liczbę naturalną n n.
+Następnie stworzy dynamiczną tablicę n n-element-ową i wypełni ją liczbami
+od 1,\dots,n 1,…,n. Następnie program ma wypisać tę tablicę na ekranie.
+W przypadku sytuacji błędnych program ma wypisać komunikat BŁĄD oraz zakończyć działanie.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
-void wypisz_tablice(int *tab, int n){
-    for(int i=0; i<n; i++){
-        printf("%d")
-    }
-}
+/*void podaj_liczbe(){
+    int n;
+    scanf("%d", &n);
+}*/
 
 int main(){
-    int tab[10]; //statyczna tablica jednowymiarowa
-    int *tab2
-    tab2 = malloc(10*sizeof(int));
-    if(tab2 == NULL){
-        perror("error in malloc");
-        return 1;
+    int *mytab = NULL;
+    int i;
+    int n;
+    printf("podaj liczbę:\n");
+    scanf("%d", &n);
+    mytab = (int*)malloc(5 * sizeof(int));
+    if (mytab == NULL){
+    perror("Error in malloc");
+    exit (1);
+  }
+    for(i=1; i<n; i++){
+        mytab[i] = i;
     }
-    for(int i=0; i<10; i++)
-    {
-        scanf("%d", &tab2[i]);
+    for(i=1; i<n; i++){
+        printf("%d", mytab[i]);
     }
-    for(int i=0; i<10; i++)
-    {
-        scanf("%d", &tab2[i]);
-    }
-    purchar('\n');
-    free(tab2);
-    return 0;
+    putchar('\n');
+    free(mytab);
+    return EXIT_SUCCESS;
 }
