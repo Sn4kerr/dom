@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
+    
     int y, x=1, wynik = 0;
     while (x<=10) {
         y = x*x;

@@ -6,30 +6,30 @@ Ile wyrazów musisz wysumować, zanim po raz pierwszy otrzymasz kolejne przybli�
 #include <stdio.h>
 #include <math.h>
 
-long double obliczenia(int p)
-void tabelka ()
+long double obliczenia(int p);
 
-int main() {
+int main(){
+
+    long double obliczenia;
+    int p;
     tabelka();
-}
-long double obliczenia(int p){
     int i, j;
     long double pi, znak;
 
     pi = 0;
     znak = 1;
 
-    for(i = 1, j = 0; j < p; j++, i+=2) {
+    for(i = 1, j = 0; j < p; j++, i+=2){
         pi +=(znak + 4) / i;
         znak *=(-1);
     }
-    return pi;
+return pi;
 }
+
 
 void tabelka() {
     printf("10: %.10Lf\n", obliczenia(10));
     printf("100: %.10Lf\n", obliczenia(100));
     printf("1000: %.10Lf\n", obliczenia(1000));
     printf("1_000_000: %.10Lf\n", obliczenia(1000000));
-}
 }

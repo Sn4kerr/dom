@@ -1,20 +1,18 @@
- /* 2. Zamiast komentarzy / ... / w programie poniżej wpisz kod tak, aby powstał program, który sprawdza czy podana liczba całkowita jest pierwsza. */
+ /*
+ 2. Zamiast komentarzy / ... / w programie poniżej wpisz kod tak, aby powstał program,
+ który sprawdza czy podana liczba całkowita jest pierwsza.
+ */
 
-#include<stdio.h>
+#include "zadanie_2.h"
 
-int main()
-{
-  int liczba, i;
+int main() {
 
-  printf("Podaj liczbe calkowita:");
-  scanf("%d", &liczba);
+    printf("Podaj liczbe calkowita: ");
+    scanf("%d", &n);
 
-  for(i = 2; i < liczba; i ++){
-      if(liczba % i == 0) {
-          printf("%d nie jest pierwsza\n", liczba);
-      }
-  }
-      if(liczba == i) {
-          printf("podana liczba %d jest pierwsza\n", liczba);
-  }
+    niePierwsza();
+
+    if( n==i ){
+        printf("Podana liczba %d jest pierwsza\n", n);
+    }
 }

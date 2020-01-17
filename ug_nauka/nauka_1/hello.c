@@ -1,20 +1,19 @@
-#include <stdio.h>
+#include "ansi.h"
 
 int main()
 {
-    char * name = "Damian"; //Tworzy zmienną char i rezerwuje pamięć na tyle rzeczy ile podasz i w name umieszcza ten adres
-    // char * name = [32 + 1];
-    int count = 3;
+    char name[100];
+    int count = 0;
 
-    // scanf("%d", &count);
-    // scanf("%s", name); //scanf("%s"); do wcyztywania tego co jest na kalwiaturze służy funkcja scan
+    printf("\033[01;33m" "Podaj imię:\n");
+    scanf("%s", name);
 
-    printf("\033[0;31m");
-    printf("%s ", "Witaj");
-    for (int i = 0; i < count; i++)
-    {
-        printf("\033[01;33m");
-        printf("%s ", name);
+    printf("\033[01;33m" "Ila razy ma być powtórzone imię?\n");
+    scanf("%d", &count);
+
+    printf("%s\n", "Witaj");
+    for (int i = 0; i < count; i++){
+        printf("\x1b[32m" "%s ", name);
     }
     printf("\b!\n");
 }
